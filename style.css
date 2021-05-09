@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+}
+h1 {
+  background-color: #9475cc;
+  padding: 5px;
+  color: lightgray;
+}
+.container {
+}
+header {
+  max-width: 500px;
+}
+.row {
+  width: 100%;
+  background-color: #9475cc;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.row input {
+  font-size: 16px;
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 5px;
+}
+
+#btn {
+  width: 100%;
+  padding: 8px;
+  background-color: #9475cc;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.5s linear;
+  color: lightgray;
+}
+#btn:hover {
+  background-color: #c075cc;
+}
+#btn:active {
+  background-color: tomato;
+}
+#search {
+  color: #4eb7f8;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  outline-color: #4eb7f8;
+}
+#searchBy {
+  color: #333;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.student {
+  width: 200px;
+  display: inline-block;
+  background-color: #fff8e6;
+  text-align: center;
+  padding-bottom: 20px;
+  transition: all 0.3s;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.75);
+}
+
+.hide {
+  display: none;
+}
+.student-list {
+  padding: 10px 0 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.student {
+  transition: all 0.5s;
+}
+.student {
+  margin: 5px;
+}
+.student img {
+  width: 200px;
+  height: 200px;
+}
+.student:hover {
+  transform: scale(1.05);
+  box-shadow: 8px 8px 5px 0px rgba(0, 0, 0, 0.6);
+}
+.err {
+  text-align: center;
+  background-color: crimson;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  display: none;
+}
+.err.show {
+  display: block;
+}
+
+.found {
+  color: red;
+}
